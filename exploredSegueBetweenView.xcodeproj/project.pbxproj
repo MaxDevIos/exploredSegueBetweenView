@@ -13,6 +13,8 @@
 		006DE7FF26AAC52A00FC9FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006DE7FD26AAC52A00FC9FA4 /* Main.storyboard */; };
 		006DE80126AAC52B00FC9FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006DE80026AAC52B00FC9FA4 /* Assets.xcassets */; };
 		006DE80426AAC52B00FC9FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006DE80226AAC52B00FC9FA4 /* LaunchScreen.storyboard */; };
+		006DE80E26AADD0A00FC9FA4 /* NameLabelEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006DE80D26AADD0A00FC9FA4 /* NameLabelEnterViewController.swift */; };
+		006DE81026AAE97700FC9FA4 /* SurnameBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006DE80F26AAE97700FC9FA4 /* SurnameBackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		006DE80026AAC52B00FC9FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006DE80326AAC52B00FC9FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006DE80526AAC52B00FC9FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006DE80D26AADD0A00FC9FA4 /* NameLabelEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameLabelEnterViewController.swift; sourceTree = "<group>"; };
+		006DE80F26AAE97700FC9FA4 /* SurnameBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurnameBackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				006DE7F726AAC52A00FC9FA4 /* AppDelegate.swift */,
 				006DE7F926AAC52A00FC9FA4 /* SceneDelegate.swift */,
+				006DE80F26AAE97700FC9FA4 /* SurnameBackViewController.swift */,
+				006DE80D26AADD0A00FC9FA4 /* NameLabelEnterViewController.swift */,
 				006DE7FB26AAC52A00FC9FA4 /* ViewController.swift */,
 				006DE7FD26AAC52A00FC9FA4 /* Main.storyboard */,
 				006DE80026AAC52B00FC9FA4 /* Assets.xcassets */,
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				006DE7FC26AAC52A00FC9FA4 /* ViewController.swift in Sources */,
+				006DE81026AAE97700FC9FA4 /* SurnameBackViewController.swift in Sources */,
 				006DE7F826AAC52A00FC9FA4 /* AppDelegate.swift in Sources */,
 				006DE7FA26AAC52A00FC9FA4 /* SceneDelegate.swift in Sources */,
+				006DE80E26AADD0A00FC9FA4 /* NameLabelEnterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
